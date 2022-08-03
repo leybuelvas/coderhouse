@@ -1,0 +1,15 @@
+{
+  "name": "desafio-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desafio-2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Leyci Buelvas",
+  "license": "ISC",
+  "devDependencies": {
+    "file-system": "^2.2.2"
+  }
+}
