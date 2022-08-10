@@ -1,0 +1,21 @@
+[
+ {
+   "title": "Canasta de mimbre",
+   "price": 123.459,
+   "thumbnail": "https://ebani.com.co/wp-content/uploads/2020/09/Canasta-en-mimbre-Juana-2-Ebani-Colombia-tienda-online-de-decoraci%C3%B3n-y-mobiliario-Madre-monte-scaled.jpg",
+   "id": 1
+ },
+ {
+   "title": "Tela de algodon",
+   "price": 234.560,
+   "thumbnail": "https://latramafabrics.com/wp-content/uploads/2021/03/Tela-de-Algodon-Rustico-Liso-Verde-Agua.jpg",
+   "id": 2
+ },
+ {
+   "title": "Vino",
+   "price": 845.679,
+   "thumbnail": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/03/15/16473549480220.jpg",
+   "id": 3
+ }
+]
+
