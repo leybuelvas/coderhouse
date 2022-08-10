@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const Contenedor = require('./clase/desafio-2');
-
+const PORT =8080;
 
 const productos = new Contenedor('productos.txt');
 
@@ -23,7 +23,7 @@ app.get('*', (req, res) => {
     res.send('¡Ups! ERROR 404 PAGE NOT FOUND')
 });
 
-const server = app.listen(8080,() => console.log('Server listening on port http://localhost:8080/'));
+const server = app.listen(process.env.PORT || PORT,() => console.log(`listening on PORT ${PORT}`));
 server.on('error',err => console.log(`error: ${err}`));
 
 
