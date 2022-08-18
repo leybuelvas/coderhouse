@@ -2,7 +2,7 @@ const express = require('express');
 const routerProductos = require('./routes/productos.routes');
 const app = express();
 const PORT = 8080;
-const server = app.listen(PORT, () => {
+const server = app.listen(process.env.PORT || PORT, () => {
     console.log(`Servidor corriendo en el puerto ${server.address().port}`);
 });
 server.on('error', err => console.log(`Error en el servidor ${err}`));
