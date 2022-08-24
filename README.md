@@ -6,4 +6,8 @@ Aprendí a utilizar los tres motores de plantilla y a investigar más por mi cue
 > Para ejecutar el proyecto se deben ejecutar
 > las tres plantillas de lo contrario no encontraria la ruta
 ---
-> no olviden ejecutar npm install
+ 
+no olviden ejecutar: 
+```
+npm install
+```
