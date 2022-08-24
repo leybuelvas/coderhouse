@@ -1,0 +1,64 @@
+<style>
+   .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+    .active {
+        background-color: #2e2cab82;
+        color: rgb(16, 14, 14);
+        transition-delay: inherit;
+        transition: all 1s;
+    }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .navbar a:hover {
+            background-color: rgb(18, 1, 1);
+            color: rgb(226, 216, 216);
+        }
+        
+        
+        nav ul {
+            float: left;
+        }
+
+        ::marker {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        input{
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 5px;
+        }
+        
+        .jumbotron {
+            background-color: rgba(255, 252, 252, 0.686);
+            color: rgb(30, 25, 25);
+            padding: 1rem;
+            margin-top: 2px;
+            overflow: hidden;
+        }       
+</style>
+
+<nav class="navbar-expand-lgp active">
+        <ul class="right hide-on-med-and-down">
+            <li><a href="http://localhost:9090" target="_blank">Formulario PUG</a></li>
+            <li><a href="http://localhost:9091" target="_blank">Formulario HBS</a></li>
+            <li><a href="http://localhost:9092" class="active">Formulario EJS</a></li>
+        </ul>
+</nav>

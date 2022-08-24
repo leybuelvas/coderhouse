@@ -1,0 +1,24 @@
+<h2 style="color:rgb(114, 1, 243);"><b><i>Historial</i></b></h2>
+<% if (DB_PRODUCTOS.length > 0) { %> 
+        <div class="table-responsive">
+            <table class="table table-dark">
+                <tr style="color: rgb(249, 247, 251);"> <th><i>Nombre</i></th> <th><i>Precio</i></th> <th><i>Foto</i></th> </tr>
+                    <% for (const productos of DB_PRODUCTOS) { %> 
+                    <tr>
+                    <td><%=productos.nombre %> </td>
+                    <td><%=productos.precio %> </td>
+                    <td>
+                        <% if (productos.foto == "") { %>
+                        continue;
+                        <% } else { %>
+                        <img src="<%=productos.foto %>" width="35" alt="">
+                        <% } %>
+                    </td>
+                </tr>
+                <% } %>
+            </table>
+        </div>
+    <% } else { %>
+        <h3 class="alert alert-danger">No hay productos registrados</h3>
+    <% } %>
+                    

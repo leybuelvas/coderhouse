@@ -1,0 +1,18 @@
+div 
+    h2(style="color:rgb(114, 1, 243)") Historial de productos
+    br
+    if DB_PRODUCTOS.length > 0
+        div(class="table-responsive")
+            table.table.table-dark  
+              tr(style='color:rgb(249, 247, 251')
+                  th Nombre
+                  th Precio
+                  th Foto
+              each productos in DB_PRODUCTOS
+                  tr
+                      td=productos.nombre
+                      td=productos.precio
+                      td
+                            img(width="30" src=productos.foto alt ="")
+    else
+      h3(class="alert alert-danger")='No hay productos'
